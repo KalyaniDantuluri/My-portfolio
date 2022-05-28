@@ -1,0 +1,218 @@
+body {
+    /* margin: auto; */
+    /*when it is 0 no need to specify units like px*/
+    text-align: center;
+    font-family: 'merriweather', serif;
+    /*By default we have serif family as our font*/
+    color: #180A0A;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    /* margin: 0; */
+    /* margin: auto; */
+    /* if it is a block element   and it has a width set
+    then we should use auto value for margin*/
+    margin: 0 auto;
+    font-family: 'roboto', sans-serif;
+    font-size: 5.625rem;
+    /*90/16*/
+    /* 100% = 16px = 1em */
+    /*rem doesn't get affected by upstream size changes
+    so it is better to use rem than em*/
+    margin-top: 60px auto 0 auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+.para {
+    font-size: 2.50rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'montserrat', sans-serif;
+    color: #11999E;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-container {
+    background-color: #E4f9f5;
+    position: relative;
+    padding-top: 150px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6 6px;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    height: 100px;
+    width: 1349px;
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin: 50px auto 0;
+}
+
+.bluee {
+    background-color: #66bfbf;
+    margin-bottom: auto;
+}
+
+.bottom-container:hover {
+    background-color: #F4BFBF;
+    transition-delay: 1ms;
+}
+
+
+/* .bottom-container1 {
+    background-color: #66bfbf;
+    padding: 120px auto;
+    position: relative;
+    top: 100px;
+}
+
+.bottom-container1:hover {
+    background-color: #F4BFBF;
+} */
+
+.instagram {
+    position: absolute;
+    left: 350px;
+}
+
+.github {
+    position: absolute;
+    left: 550px;
+}
+
+.linkedin {
+    position: absolute;
+    left: 750px;
+}
+
+.gmail {
+    position: absolute;
+    left: 950px;
+}
+
+
+/* .contact-me {
+    height: 120px;
+} */
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    color: #11999E;
+}
+
+.skill-row {
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.typing {
+    width: 25%;
+    float: left;
+    margin: 50px;
+}
+
+.programming {
+    width: 25%;
+    float: right;
+    margin: 50px;
+}
+
+.speech {
+    width: 25%;
+    float: left;
+    margin: 50px;
+}
+
+.web-design {
+    width: 25%;
+    float: right;
+    margin: 50px;
+}
+
+
+/* use float only to wrap text around */
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me {
+    margin: 40px auto 60px auto;
+    padding: 20px auto;
+}
+
+.copy {
+    color: #e6eeee;
+    padding: 20px 0;
+}
